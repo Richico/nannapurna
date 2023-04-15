@@ -153,6 +153,82 @@ Dear Sir/Madam,
 New Annapurna Foods
 <hr>
 <hr>
+
+<font face= "Arial"; font color="30321C"; font size="5"> Image Gallary </font>
+<div class="scroll-gallery">
+  <div class="scroll-wrapper">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 4">
+    <img src="image5.jpg" alt="Image 5">
+  </div>
+</div>
+<br>
+<font face= "Arial"; font color="30321C"; font size="5"> Video Gallary </font>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video Gallery</title>
+	<style>
+		.video-gallery {
+			display: flex;
+			overflow-x: scroll;
+			scrollbar-width: none;
+			-ms-overflow-style: none;
+		}
+		.video-gallery::-webkit-scrollbar {
+			display: none;
+		}
+		.video-item {
+			margin-right: 20px;
+		}
+		.video-item:last-child {
+			margin-right: 0;
+		}
+		.video-item video {
+			width: 200px;
+			height: 150px;
+			object-fit: cover;
+		}
+	</style>
+</head>
+<body>
+	<div class="video-gallery">
+		<div class="video-item">
+			<video controls>
+				<source src="c.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="video-item">
+			<video controls>
+				<source src="video2.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="video-item">
+			<video controls>
+				<source src="video3.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="video-item">
+			<video controls>
+				<source src="video4.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="video-item">
+			<video controls>
+				<source src="video5.mp4" type="video/mp4">
+			</video>
+		</div>
+	</div>
+</body>
+</html>
+<br>
+
+<hr>
+<hr>
+<font face= "Arial"; font color="black"; font size="5"> About </font>
 <table>
 <tr>
 <td> <b>Proprietors</b></td>
