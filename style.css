@@ -1,0 +1,243 @@
+body
+{
+    background-color: rgb(38, 38, 38);
+}
+.top
+{
+    /* background-image: url(https://images.pexels.com/photos/28674690/pexels-photo-28674690/free-photo-of-rich-indian-lamb-curry-in-traditional-metal-bowl.jpeg); */
+    background-image: url(./image/mutton\ cover.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover ;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2px;
+    border-radius: 10px;
+    height: 100%;
+    text-align: right;
+    
+    
+}
+#shade
+{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));
+    border-color: black;
+    height: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    /* box-shadow: 10px 20px 53px inset; */
+    box-shadow: 20px 22px 50px;
+   
+    
+}
+.heading
+{
+    color: rgb(255, 255, 163);
+    font-size: 60px;
+    padding-right: 30px;
+    padding: 5px;
+    align-content: end;
+    margin-left: 40%;
+    margin-bottom: 15px;
+    font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.small_heading
+{
+    font-size: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color:  rgb(158, 158, 92);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0px;
+    
+    /* margin-right: 25%; */
+}
+.cards .small_heading
+{
+    margin-left: 35%;
+}
+.info
+{
+    color: rgb(254, 254, 208);
+    font-size: 20px;
+    font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+    margin-top: 5px;
+    padding-right: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    align-content: end;
+    margin-left: 40%;
+    margin-bottom: 5px;
+}
+
+a
+{
+text-decoration: none;
+
+}
+
+
+
+/* menu lists */
+
+.cards_back
+{
+    background-color: rgb(194, 108, 21);
+    /* background-color: rgba(0, 0, 0, 0); */
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    /* height: 100%; */
+    box-shadow: 20px 25px 50px;
+    padding: 2%;
+    display: flex;
+    /* border: dashed 3px rgb(255, 218, 164); */
+    overflow-x: scroll;
+    align-items: stretch;
+    /* scroll-behavior: smooth; */
+    /* flex-wrap:nowrap; */
+    /* scroll-behavior:auto; */
+    
+      
+}
+.scroll
+{
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.scroll > .cards > img
+{
+    height: 200px;
+    width: 300px;
+border-radius: 30px;
+}
+/* 
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 5px rgb(230, 30, 30);
+} 
+ */
+
+.menu
+{
+     background-color: rgb(160, 79, 25);
+     margin-right: 2%;
+     margin-left: 2%;
+    /* margin-top: 3%;
+    margin-bottom: 3%; */
+      border-radius: 10px;
+     /* height: 100%; */
+      box-shadow: 20px 25px 50px rgb(19, 14, 5);
+     padding: 2%;
+     flex: 0 0 auto;
+    /* box-shadow: inset 0 0 5px rgb(230, 30, 30); */
+    /* transition: box-shadow 2s; */
+    /* transition: all 0.5s ease-in-out;
+    transition-timing-function: ease-in-out; */
+ 
+}
+.cards{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: start;
+margin: 15px;
+}
+
+/* .menu
+{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: start;
+        /* flex: 1; Ensures flexibility */
+        /* min-height: 400px; Adjust based on your design */
+        /* max-width: 700px; Ensures uniform width */
+        /* padding: 20px; */
+        /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background: #fff; */
+
+    
+/* } */
+*/
+
+/* .menu:hover
+{
+   
+    box-shadow: 20px 25px 70px  inset rgb(160, 69, 9);
+
+ transition-delay: 10s;
+    transition-duration: 2s;
+     transition: all 0.5s ease-in-out;
+    
+ } */
+
+.menu > h4
+{
+    color:rgb(255, 255, 132);
+    font-size: 35px;
+    
+}
+.menu > ul > li
+{
+    /* font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic; */
+
+    font-family: "Playball", carsive;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 20px;
+    /* color: rgb(255, 233, 218); */
+    background-color: #fcffd0;
+    list-style:decimal-leading-zero;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.price
+{
+    font-size: 30px;
+    color: rgb(255, 225, 186);
+    text-align: center;
+}
+.price> span
+{
+color: rgb(24, 24, 24);
+}
+p.info
+{
+margin: 0px;
+padding: 0px;
+}
+.services
+{
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tender
+{
+    color: rgb(205, 175, 53);
+    margin: 5%;
+    background-color: rgba(72, 72, 45, 0.566);
+    border-radius: 50px;
+    padding: 4%;
+}
