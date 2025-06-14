@@ -1,11 +1,11 @@
 body
 {
-    background-color: rgba(255, 255, 255, 0.684);
+    background-color: rgb(38, 38, 38);
 }
 .top
 {
     /* background-image: url(https://images.pexels.com/photos/28674690/pexels-photo-28674690/free-photo-of-rich-indian-lamb-curry-in-traditional-metal-bowl.jpeg); */
-    background-image: url(./image/light\ mutton\ cover.png);
+    background-image: url(./image/mutton\ cover.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover ;
@@ -20,19 +20,19 @@ body
 }
 #shade
 {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(210, 210, 210, 0.429));
-    border-color: rgb(237, 237, 237);
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.938));
+    border-color: black;
     height: 100%;
     padding: 5px;
     border-radius: 10px;
     /* box-shadow: 10px 20px 53px inset; */
-    box-shadow: 20px 22px 50px rgba(141, 140, 138, 0.704);
+    box-shadow: 20px 22px 50px;
    
     
 }
 .heading
 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 163);
     font-size: 60px;
     padding-right: 30px;
     padding: 5px;
@@ -50,7 +50,7 @@ body
     font-size: 20px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     /* color:  rgb(158, 158, 92); */
-    color: rgb(235, 176, 0);
+    color: rgb(222, 203, 95);
     margin-top: 2px;
     margin-bottom: 2px;
     padding: 0px;
@@ -63,7 +63,7 @@ body
 }
 .info
 {
-    color: rgb(67, 20, 0);
+    color: rgb(254, 254, 208);
     font-size: 20px;
     font-family: "Inter", serif;
   font-optical-sizing: auto;
@@ -238,11 +238,11 @@ padding: 0px;
 
 .tender
 {
-    color: rgb(0, 55, 126);
+    color: rgb(59, 47, 0);
     /* background-image: url(https://marketplace.canva.com/EAGP74_5yKc/1/0/1131w/canva-brown-aesthetic-vintage-page-border-blank-document-a4-y41c3kNK43U.jpg); */
     margin-left: 23%;
     margin-right: 23%;
-    background-color: rgba(253, 249, 203, 0.423);
+    background-color: rgba(255, 255, 255, 0.566);
     border-radius: 50px;
     padding: 40px;
     font-size: 15px;
@@ -250,29 +250,26 @@ padding: 0px;
 }
 .shade_gen1
 {
-     /* box-shadow:
-    inset -1em -0.4em 35px rgba(159, 159, 159, 0.5),
-    inset 30px -4px 50px rgba(215, 215, 215, 0.567),
-    1em -0.04em 35px rgba(135, 133, 133, 0.5) ; */
-
-    box-shadow: -10px 15px 40px rgba(55, 53, 47, 0.427);
+     box-shadow:
+    inset -1em -0.4em 35px rgba(0, 0, 0, 0.5),
+    inset 30px -4px 50px rgba(49, 49, 49, 0.567),
+    1em -0.04em 35px rgba(0, 0, 0, 0.5) ;
     padding: 0px;
     border-radius: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 .shade_gen2
 {
-     /* box-shadow:
-    inset 1em 0.4em 35px rgba(219, 219, 219, 0.5),
-    inset -30px 4px 50px rgba(175, 175, 175, 0.567),
-    -1em 0.04em 35px rgba(102, 101, 101, 0.5) ; */
-    box-shadow: -10px 15px 40px rgba(61, 59, 48, 0.427);
+     box-shadow:
+    inset 1em 0.4em 35px rgba(0, 0, 0, 0.5),
+    inset -30px 4px 50px rgba(49, 49, 49, 0.567),
+    -1em 0.04em 35px rgba(0, 0, 0, 0.5) ;
     padding-left: 2px;
     border-radius: 30px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     
 }
 .ser_head
@@ -280,12 +277,11 @@ padding: 0px;
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 2px;
-    color: #be4900;
-    /* font-family: "Neonderthaw", cursive;
+    color: #fcffd0;
+    font-family: "Neonderthaw", cursive;
     font-weight: 400;
-    font-style: normal; */
-    font-style: italic;
-    /* text-shadow: 2px 3px 4px; */
+    font-style: normal;
+    text-shadow: 2px 3px 4px;
       
 }
 
@@ -297,10 +293,10 @@ padding: 0px;
         font-style: normal;
         font-size: 30px;
         margin-top: 2px;
-        color: rgb(206, 175, 0);
+        color: rgb(232, 197, 1);
 }
 
-/* .btn {
+.btn {
 
     --clr-font-main: hsla(0 0% 20% / 100);
     --btn-bg-1: rgb(255, 155, 97);
@@ -330,28 +326,12 @@ padding: 0px;
       0px 5px 5px -1px rgba(233, 157, 58, 0.25),
       inset 4px 4px 8px rgba(247, 255, 175, 0.5),
       inset -4px -4px 8px rgba(91, 19, 216, 0.35);
-  } */
-
-  .btn
-  {
-    height: 50px;
-    width: 105px;
-    border-radius: 6px;
-    background-color: rgb(255, 178, 71);
-    margin: 20px;
-     transition: 0.8s;
-     font-weight: 400;
   }
   
   .btn:hover {
-    font-size: 20px;
-    height: 70px;
-    width: 130px;
-    border-style:dashed;
-    font-weight: 600;
+    background-position: right top;
   }
   
-  /
   .btn:is( :active) {
     outline: none;
     box-shadow:
